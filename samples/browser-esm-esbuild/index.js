@@ -19,6 +19,6 @@ self.MonacoEnvironment = {
 };
 
 monaco.editor.create(document.getElementById('container'), {
-	value: ['function x() {', '\tconsole.log("Hello world!");', '}'].join('\n'),
-	language: 'javascript'
+	value: ['a {', '\tborder: solid 1px red;', '}'].join('\n'),
+	language: 'css'
 });

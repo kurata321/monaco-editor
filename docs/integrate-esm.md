@@ -223,7 +223,7 @@ self.MonacoEnvironment = {
 };
 
 monaco.editor.create(document.getElementById('container'), {
-	value: "function hello() {\n\talert('Hello world!');\n}",
-	language: 'javascript'
+	value: 'a {\n\tborder: solid 1px red;\n}',
+	language: 'css'
 });
 ```

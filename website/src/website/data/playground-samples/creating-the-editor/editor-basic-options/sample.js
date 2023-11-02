@@ -3,8 +3,8 @@
 // You can also call editor.updateOptions at any time to change the options.
 
 var editor = monaco.editor.create(document.getElementById("container"), {
-	value: "// First line\nfunction hello() {\n\talert('Hello world!');\n}\n// Last line",
-	language: "javascript",
+	value: "// First line\nfunction hello() {\n\tborder: solid 1px red;\n}\n// Last line",
+	language: "css",
 
 	lineNumbers: "off",
 	roundedSelection: false,

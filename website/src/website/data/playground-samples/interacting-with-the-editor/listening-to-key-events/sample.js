@@ -1,6 +1,6 @@
 var editor = monaco.editor.create(document.getElementById("container"), {
-	value: "function hello() {\n\talert('Hello world!');\n}",
-	language: "javascript",
+	value: "{\n\tborder: solid 1px red;\n}",
+	language: "css",
 });
 
 var myBinding = editor.addCommand(monaco.KeyCode.F9, function () {
